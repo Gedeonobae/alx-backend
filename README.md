@@ -16,14 +16,14 @@ This repo contains projects for learning backend development concepts.
 
 
 <div align="center">
-<img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%" />
+<img src="https://Gedeonobae.github.io/static/images/greetings.gif" align="center" style="width: 100%" />
 </div>
 
 
 ### <div align="center">I'm Gedeon Obae Gekonge, a software engineer 👨💻 learning  remotely from Kenya 🚀</div>  
 
 
-- 🔭 I’m currently a Studen of holberton School Via ALX  [ALX_Africa](https://www.alxafrica.com/) [Holberton school](https://www.holbertonschool.com/)
+- 🔭 I’m currently a Student of holberton School Via ALX  [ALX_Africa](https://www.alxafrica.com/) [Holberton school](https://www.holbertonschool.com/)
 
 
 - ❓ Ask me about anything 
