@@ -64,7 +64,7 @@ This repo contains projects for learning backend development concepts.
 
 <br/>
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Gedeonobae)](https://github.com/Gedeonobae/github-readme-stats)
+[![Gedeonobae's GitHub stats](https://github-readme-stats.vercel.app/api?username=Gedeonobae)](https://github.com/Gedeonobae/github-readme-stats)
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=davixcky&hide_border=true&layout=compact" align="left" /></details>
 
