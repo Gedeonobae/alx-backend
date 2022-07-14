@@ -20,7 +20,8 @@ This repo contains projects for learning backend development concepts.
 </div>
 
 
-### <div align="center">I'm Gedeon Obae Gekonge, a software engineer 👨💻 learning  remotely from Kenya 🚀</div>  
+### <div align="center">I'm Gedeon Obae Gekonge, a software engineer 👨💻 learning  remotely from Kenya 🚀</div> 
+ 
 
 
 - 🔭 I’m currently a Student of holberton School Via ALX  [ALX_Africa](https://www.alxafrica.com/) [Holberton school](https://www.holbertonschool.com/)
