@@ -1,0 +1,181 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'babel-jest',
+1 verbose cli   '@babel/core',
+1 verbose cli   '@babel/preset-env' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData babel-jest
+8 silly fetchPackageMetaData @babel/core@^7.8.0
+9 silly fetchPackageMetaData @babel/preset-env@^7.8.2
+10 silly fetchNamedPackageData @babel/core
+11 silly mapToRegistry name @babel/core
+12 silly mapToRegistry scope (from package name) @babel
+13 verbose mapToRegistry no registry URL found in name for scope @babel
+14 silly mapToRegistry using default registry
+15 silly mapToRegistry registry https://registry.npmjs.org/
+16 silly mapToRegistry uri https://registry.npmjs.org/@babel%2fcore
+17 silly fetchNamedPackageData @babel/preset-env
+18 silly mapToRegistry name @babel/preset-env
+19 silly mapToRegistry scope (from package name) @babel
+20 verbose mapToRegistry no registry URL found in name for scope @babel
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/@babel%2fpreset-env
+24 silly fetchNamedPackageData babel-jest
+25 silly mapToRegistry name babel-jest
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/babel-jest
+29 verbose request uri https://registry.npmjs.org/@babel%2fcore
+30 verbose request no auth needed
+31 info attempt registry request try #1 at 6:50:02 AM
+32 verbose request id 3fc7906f3fbc5907
+33 verbose etag W/"cfa6ef0d570cc13e5afa3a5588e5ef82"
+34 verbose lastModified Mon, 01 Aug 2022 18:46:49 GMT
+35 http request GET https://registry.npmjs.org/@babel%2fcore
+36 verbose request uri https://registry.npmjs.org/@babel%2fpreset-env
+37 verbose request no auth needed
+38 info attempt registry request try #1 at 6:50:02 AM
+39 verbose etag W/"fca428f394bc40aafab30badf72c9d8f"
+40 verbose lastModified Mon, 01 Aug 2022 18:46:47 GMT
+41 http request GET https://registry.npmjs.org/@babel%2fpreset-env
+42 verbose request uri https://registry.npmjs.org/babel-jest
+43 verbose request no auth needed
+44 info attempt registry request try #1 at 6:50:02 AM
+45 verbose etag W/"7f9e90956eb80195a93eb26b210ff261"
+46 verbose lastModified Thu, 11 Aug 2022 13:41:03 GMT
+47 http request GET https://registry.npmjs.org/babel-jest
+48 http 304 https://registry.npmjs.org/@babel%2fcore
+49 verbose headers { date: 'Wed, 17 Aug 2022 13:50:02 GMT',
+49 verbose headers   connection: 'keep-alive',
+49 verbose headers   'cf-ray': '73c2e0638b229c1e-IAD',
+49 verbose headers   age: '290',
+49 verbose headers   'cache-control': 'public, max-age=300',
+49 verbose headers   etag: '"cfa6ef0d570cc13e5afa3a5588e5ef82"',
+49 verbose headers   'last-modified': 'Mon, 01 Aug 2022 18:46:49 GMT',
+49 verbose headers   vary: 'Accept-Encoding',
+49 verbose headers   'cf-cache-status': 'HIT',
+49 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+49 verbose headers   'x-amz-replication-status': 'PENDING',
+49 verbose headers   server: 'cloudflare' }
+50 silly get cb [ 304,
+50 silly get   { date: 'Wed, 17 Aug 2022 13:50:02 GMT',
+50 silly get     connection: 'keep-alive',
+50 silly get     'cf-ray': '73c2e0638b229c1e-IAD',
+50 silly get     age: '290',
+50 silly get     'cache-control': 'public, max-age=300',
+50 silly get     etag: '"cfa6ef0d570cc13e5afa3a5588e5ef82"',
+50 silly get     'last-modified': 'Mon, 01 Aug 2022 18:46:49 GMT',
+50 silly get     vary: 'Accept-Encoding',
+50 silly get     'cf-cache-status': 'HIT',
+50 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+50 silly get     'x-amz-replication-status': 'PENDING',
+50 silly get     server: 'cloudflare' } ]
+51 verbose etag https://registry.npmjs.org/@babel%2fcore from cache
+52 verbose get saving @babel/core to /root/.npm/registry.npmjs.org/_40babel_252fcore/.cache.json
+53 http 304 https://registry.npmjs.org/babel-jest
+54 verbose headers { date: 'Wed, 17 Aug 2022 13:50:02 GMT',
+54 verbose headers   connection: 'keep-alive',
+54 verbose headers   'cf-ray': '73c2e0638d4057f4-IAD',
+54 verbose headers   age: '224',
+54 verbose headers   'cache-control': 'public, max-age=300',
+54 verbose headers   etag: '"7f9e90956eb80195a93eb26b210ff261"',
+54 verbose headers   'last-modified': 'Thu, 11 Aug 2022 13:41:03 GMT',
+54 verbose headers   vary: 'Accept-Encoding',
+54 verbose headers   'cf-cache-status': 'HIT',
+54 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+54 verbose headers   'x-amz-replication-status': 'PENDING',
+54 verbose headers   server: 'cloudflare' }
+55 silly get cb [ 304,
+55 silly get   { date: 'Wed, 17 Aug 2022 13:50:02 GMT',
+55 silly get     connection: 'keep-alive',
+55 silly get     'cf-ray': '73c2e0638d4057f4-IAD',
+55 silly get     age: '224',
+55 silly get     'cache-control': 'public, max-age=300',
+55 silly get     etag: '"7f9e90956eb80195a93eb26b210ff261"',
+55 silly get     'last-modified': 'Thu, 11 Aug 2022 13:41:03 GMT',
+55 silly get     vary: 'Accept-Encoding',
+55 silly get     'cf-cache-status': 'HIT',
+55 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+55 silly get     'x-amz-replication-status': 'PENDING',
+55 silly get     server: 'cloudflare' } ]
+56 verbose etag https://registry.npmjs.org/babel-jest from cache
+57 verbose get saving babel-jest to /root/.npm/registry.npmjs.org/babel-jest/.cache.json
+58 http 304 https://registry.npmjs.org/@babel%2fpreset-env
+59 verbose headers { date: 'Wed, 17 Aug 2022 13:50:02 GMT',
+59 verbose headers   connection: 'keep-alive',
+59 verbose headers   'cf-ray': '73c2e0638e379c88-IAD',
+59 verbose headers   age: '212',
+59 verbose headers   'cache-control': 'public, max-age=300',
+59 verbose headers   etag: '"fca428f394bc40aafab30badf72c9d8f"',
+59 verbose headers   'last-modified': 'Mon, 01 Aug 2022 18:46:47 GMT',
+59 verbose headers   vary: 'Accept-Encoding',
+59 verbose headers   'cf-cache-status': 'HIT',
+59 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+59 verbose headers   'x-amz-replication-status': 'PENDING',
+59 verbose headers   server: 'cloudflare' }
+60 silly get cb [ 304,
+60 silly get   { date: 'Wed, 17 Aug 2022 13:50:02 GMT',
+60 silly get     connection: 'keep-alive',
+60 silly get     'cf-ray': '73c2e0638e379c88-IAD',
+60 silly get     age: '212',
+60 silly get     'cache-control': 'public, max-age=300',
+60 silly get     etag: '"fca428f394bc40aafab30badf72c9d8f"',
+60 silly get     'last-modified': 'Mon, 01 Aug 2022 18:46:47 GMT',
+60 silly get     vary: 'Accept-Encoding',
+60 silly get     'cf-cache-status': 'HIT',
+60 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+60 silly get     'x-amz-replication-status': 'PENDING',
+60 silly get     server: 'cloudflare' } ]
+61 verbose etag https://registry.npmjs.org/@babel%2fpreset-env from cache
+62 verbose get saving @babel/preset-env to /root/.npm/registry.npmjs.org/_40babel_252fpreset-env/.cache.json
+63 silly install normalizeTree
+64 silly loadCurrentTree Finishing
+65 silly loadIdealTree Starting
+66 silly install loadIdealTree
+67 silly cloneCurrentTree Starting
+68 silly install cloneCurrentTreeToIdealTree
+69 silly cloneCurrentTree Finishing
+70 silly loadShrinkwrap Starting
+71 silly install loadShrinkwrap
+72 silly loadShrinkwrap Finishing
+73 silly loadAllDepsIntoIdealTree Starting
+74 silly install loadAllDepsIntoIdealTree
+75 verbose stack Error: Missing required argument #1
+75 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+75 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+75 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+75 verbose stack     at /usr/share/npm/lib/install/deps.js:190:5
+75 verbose stack     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:35
+75 verbose stack     at Array.forEach (<anonymous>)
+75 verbose stack     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:11
+75 verbose stack     at Array.forEach (<anonymous>)
+75 verbose stack     at asyncMap (/usr/share/npm/node_modules/slide/lib/async-map.js:51:8)
+75 verbose stack     at exports.loadRequestedDeps (/usr/share/npm/lib/install/deps.js:188:3)
+76 verbose cwd /root/alx-backend/0x03-queuing_system_in_js
+77 error Linux 5.3.0-1032-aws
+78 error argv "/usr/bin/node" "/usr/bin/npm" "install" "--save-dev" "babel-jest" "@babel/core" "@babel/preset-env"
+79 error node v8.10.0
+80 error npm  v3.5.2
+81 error code EMISSINGARG
+82 error typeerror Error: Missing required argument #1
+82 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+82 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+82 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+82 error typeerror     at /usr/share/npm/lib/install/deps.js:190:5
+82 error typeerror     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:35
+82 error typeerror     at Array.forEach (<anonymous>)
+82 error typeerror     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:11
+82 error typeerror     at Array.forEach (<anonymous>)
+82 error typeerror     at asyncMap (/usr/share/npm/node_modules/slide/lib/async-map.js:51:8)
+82 error typeerror     at exports.loadRequestedDeps (/usr/share/npm/lib/install/deps.js:188:3)
+83 error typeerror This is an error with npm itself. Please report this error at:
+83 error typeerror     <http://github.com/npm/npm/issues>
+84 verbose exit [ 1, true ]
